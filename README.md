@@ -19,15 +19,9 @@
 # ÍNDICE
 
 ## SPRINT 1
-[![Funcionalidades](https://img.shields.io/badge/FUNCIONALIDADES-1E6BD6?style=for-the-badge&logo=appveyor&logoColor=white)](#funcionalidades)
 
-[![Considerações](https://img.shields.io/badge/CONSIDERAÇÕES-1E6BD6?style=for-the-badge&logo=readme&logoColor=white)](#considerações)
+[![FUNCIONALIDADES](https://img.shields.io/badge/FUNCIONALIDADES-1E6BD6)](#funcionalidades) [![CONSIDERAÇÕES](https://img.shields.io/badge/CONSIDERAÇÕES-1E6BD6)](#considerações) [![TECNOLOGIAS UTILIZADAS](https://img.shields.io/badge/TECNOLOGIAS%20UTILIZADAS-1E6BD6)](#tecnologias-utilizadas) [![PROTÓTIPO NO FIGMA](https://img.shields.io/badge/PROTÓTIPO%20NO%20FIGMA-1E6BD6)](#protótipo-no-figma) [![ESCOPO](https://img.shields.io/badge/ESCOPO-1E6BD6)](#escopo) esses tbm
 
-[![Tecnologias](https://img.shields.io/badge/TECNOLOGIAS%20UTILIZADAS-1E6BD6?style=for-the-badge&logo=stackshare&logoColor=white)](#tecnologias-utilizadas)
-
-[![Protótipo no Figma](https://img.shields.io/badge/PROTÓTIPO%20NO%20FIGMA-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](#protótipo-no-figma)
-
-[![Escopo](https://img.shields.io/badge/ESCOPO-1E6BD6?style=for-the-badge&logo=notion&logoColor=white)](#escopo)
 ---
 
 # SPRINT 1
