@@ -128,13 +128,13 @@ O cronograma do projeto foi estruturado utilizando a plataforma ClickUp para ger
 
 ## Equipe
 
-| Nome             | Função         |
-| ---------------- | -------------- |
-| Breno Oliveira   | Desenvolvedor  |
-| Isabella Dias    | Desenvolvedora   |
-| Paolla Veronez   | Scrum Master |
-| Rafaela Oliveira | Product Owner |
-| Vitor Canali     | Desenvolvedor  |
+| Nome             | Função         | Email          |
+| ---------------- | -------------- | -------------- |
+| Breno Oliveira   | Desenvolvedor  | breno.emailsenai@gmail.com |
+| Isabella Dias    | Desenvolvedora   | isabelladias753@gmail.com  |
+| Paolla Veronez   | Scrum Master |  paollap.veronez@gmail.com  |
+| Rafaela Oliveira | Product Owner |  rafaelacristina1510.oliveira@gmail.com  |
+| Vitor Canali     | Desenvolvedor  |  vitorcanali67@gmail.com  |
 
 
 ---
