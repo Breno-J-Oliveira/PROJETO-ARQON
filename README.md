@@ -20,7 +20,7 @@
 
 ## SPRINT 1
 
-[![FUNCIONALIDADES](https://img.shields.io/badge/FUNCIONALIDADES-1E6BD6)](#funcionalidades) [![CONSIDERAÇÕES](https://img.shields.io/badge/CONSIDERAÇÕES-1E6BD6)](#considerações) [![TECNOLOGIAS UTILIZADAS](https://img.shields.io/badge/TECNOLOGIAS%20UTILIZADAS-1E6BD6)](#tecnologias-utilizadas) [![PROTÓTIPO NO FIGMA](https://img.shields.io/badge/PROTÓTIPO%20NO%20FIGMA-1E6BD6)](#protótipo-no-figma) [![ESCOPO](https://img.shields.io/badge/ESCOPO-1E6BD6)](#escopo) esses tbm
+[![FUNCIONALIDADES](https://img.shields.io/badge/FUNCIONALIDADES-1E6BD6)](#funcionalidades) [![CONSIDERAÇÕES](https://img.shields.io/badge/CONSIDERAÇÕES-1E6BD6)](#considerações) [![TECNOLOGIAS UTILIZADAS](https://img.shields.io/badge/TECNOLOGIAS%20UTILIZADAS-1E6BD6)](#tecnologias-utilizadas) [![PROTÓTIPO NO FIGMA](https://img.shields.io/badge/PROTÓTIPO%20NO%20FIGMA-1E6BD6)](#protótipo-no-figma) [![ESCOPO](https://img.shields.io/badge/ESCOPO-1E6BD6)](#escopo)
 
 ---
 
