@@ -1,6 +1,6 @@
 # Projeto Arqon — Sistema de Locação de Roupas Premium
 
-![STATUS](https://img.shields.io/badge/status-planejamento-purple)
+![STATUS](https://img.shields.io/badge/status-desenvolvimento-purple)
 ![VERSÃO](https://img.shields.io/badge/versão-1.0-blue)
 ![HTML](https://img.shields.io/badge/HTML5-orange)
 ![CSS](https://img.shields.io/badge/CSS3-blue)
