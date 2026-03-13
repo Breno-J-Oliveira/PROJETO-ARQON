@@ -121,6 +121,9 @@ O modelo permite visualizar o fluxo entre as telas e validar a organização das
 
 O cronograma do projeto foi estruturado utilizando a plataforma ClickUp para gerenciamento das tarefas e prazos da equipe.
 
+<img width="300" height="300" alt="Captura de tela 2026-03-13 103629" src="https://github.com/user-attachments/assets/81aac485-398a-4b25-bd9e-4baf8c04d85a" />
+
+
 ---
 
 ## Equipe
