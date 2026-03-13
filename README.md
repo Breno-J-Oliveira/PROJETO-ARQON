@@ -12,7 +12,7 @@
 
 ## Slides
 
-[![Abrir no Canva](https://img.shields.io/badge/ABRIR%20NO-CANVA-00C4CC)](#)
+[![Abrir no Canva](https://img.shields.io/badge/ABRIR%20NO-CANVA-00C4CC?style=for-the-badge&logo=canva&logoColor=white)](#)
 
 ---
 
