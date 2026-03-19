@@ -107,12 +107,11 @@ As senhas dos administradores devem ser armazenadas utilizando criptografia para
 
 O protótipo foi desenvolvido utilizando a ferramenta Figma para simular a navegação do sistema antes da implementação.
 
-Protótipos desenvolvidos:
 
-* Versão para computador
-* Versão para celular
 
-O modelo permite visualizar o fluxo entre as telas e validar a organização das interfaces.
+# Login para computador
+
+# Login para celular
 
 ---
 
