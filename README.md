@@ -116,7 +116,8 @@ O protótipo foi desenvolvido utilizando a ferramenta Figma para simular a naveg
 
 ## Login para celular
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/5aeecdf8-e1fe-474f-99ef-40d88791fba1" />
+<img width="222" height="454" alt="image" src="https://github.com/user-attachments/assets/1477d3a9-c656-4aad-a42e-62285049e0e7" />
+
 
 
 ---
