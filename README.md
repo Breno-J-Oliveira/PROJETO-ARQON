@@ -12,7 +12,7 @@
 
 ## Slides
 
-[![Abrir no Canva](https://www.canva.com/design/DAHDvlMZg-s/SGSlIG-lKRAg0JDPq9HdLg/edit?utm_content=DAHDvlMZg-s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)](#)
+[![Abrir no Canva](https://img.shields.io/badge/Abrir%20no-Canva-blue?style=for-the-badge&logo=canva)](https://www.canva.com/design/DAHDvlMZg-s/SGSlIG-lKRAg0JDPq9HdLg/edit?utm_content=DAHDvlMZg-s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
