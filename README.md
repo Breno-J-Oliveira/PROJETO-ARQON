@@ -53,6 +53,34 @@ O objetivo é desenvolver um sistema acessível, organizado e eficiente para ger
 
 ---
 
+# Paleta de Cores — Arqon
+
+| Cor / Uso        | Código HEX | RGB            |
+|------------------|------------|----------------|
+| Primária -1      | `#50132D`  | 80, 19, 45     |
+| Primária         | `#641838`  | 100, 24, 56    |
+| Primária +1      | `#781D43`  | 120, 29, 67    |
+| Secundária -1    | `#D9A432`  | 217, 164, 50   |
+| Secundária       | `#E7B93F`  | 231, 185, 63   |
+| Secundária +1    | `#F1DE4C`  | 241, 222, 76   |
+| Terciária -1     | `#808080`  | 128, 128, 128  |
+| Terciária        | `#A0A0A0`  | 160, 160, 160  |
+| Terciária +1     | `#C0C0C0`  | 192, 192, 192  |
+| Dark -1          | `#0A0612`  | 10, 6, 18      |
+| Dark             | `#0C0716`  | 12, 7, 22      |
+| Dark +1          | `#0E081A`  | 14, 8, 26      |
+| Light -1         | `#DCDCDC`  | 220, 220, 220  |
+| Light            | `#FFFFFF`  | 255, 255, 255  |
+| Light +1         | `#FFFFFF`  | 255, 255, 255  |
+| Success -1       | `#2E7D32`  | 46, 125, 50    |
+| Success          | `#4CAF50`  | 76, 175, 80    |
+| Success +1       | `#81C784`  | 129, 199, 132  |
+| Danger -1        | `#C62828`  | 198, 40, 40    |
+| Danger           | `#F44336`  | 244, 67, 54    |
+| Danger +1        | `#FF7961`  | 255, 121, 97   |
+
+---
+
 ## Escopo
 
 Diante das demandas definidas para a Sprint 1, a equipe Arqon assume o desenvolvimento de cinco telas essenciais para o sistema:
