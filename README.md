@@ -10,13 +10,13 @@
 
 ---
 
-## 📊 Planejamento
+##  Planejamento
 
 Nesta seção está o planejamento do projeto, contendo a organização das tarefas, prazos e responsáveis definidos para a Sprint 1.
 
 A planilha pode ser acessada abaixo:
 
-- 📁 [Planejamento Sprint 1](./planejamento2%20sprint%201.xlsx)
+-  [Planejamento Sprint 1](./planejamento2%20sprint%201.xlsx)
 
 > O planejamento é fundamental para garantir a organização da equipe, acompanhamento das atividades e cumprimento dos prazos estabelecidos.
 
