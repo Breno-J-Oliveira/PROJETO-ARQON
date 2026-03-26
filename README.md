@@ -10,20 +10,6 @@
 
 ---
 
-##  Planejamento
-
-Nesta seção está o planejamento do projeto, contendo a organização das tarefas, prazos e responsáveis definidos para a Sprint 1.
-
-A planilha pode ser acessada abaixo:
-
-- [planejamento2 sprint 1 (1).xlsx](https://github.com/user-attachments/files/26273147/planejamento2.sprint.1.1.xlsx)
-
-
-> O planejamento é fundamental para garantir a organização da equipe, acompanhamento das atividades e cumprimento dos prazos estabelecidos.
-
- ---
-
-
 ## Slides
 
 [![Abrir no Canva](https://img.shields.io/badge/Abrir%20no-Canva-blue?style=for-the-badge&logo=canva)](https://www.canva.com/design/DAHDvlMZg-s/SGSlIG-lKRAg0JDPq9HdLg/edit?utm_content=DAHDvlMZg-s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
@@ -37,6 +23,19 @@ A planilha pode ser acessada abaixo:
 [![FUNCIONALIDADES](https://img.shields.io/badge/FUNCIONALIDADES-1E6BD6)](#funcionalidades) [![CONSIDERAÇÕES](https://img.shields.io/badge/CONSIDERAÇÕES-1E6BD6)](#considerações) [![TECNOLOGIAS UTILIZADAS](https://img.shields.io/badge/TECNOLOGIAS%20UTILIZADAS-1E6BD6)](#tecnologias-utilizadas) [![PROTÓTIPO NO FIGMA](https://img.shields.io/badge/PROTÓTIPO%20NO%20FIGMA-1E6BD6)](#protótipo-no-figma) [![ESCOPO](https://img.shields.io/badge/ESCOPO-1E6BD6)](#escopo)
 
 ---
+
+##  Planejamento
+
+Nesta seção está o planejamento do projeto, contendo a organização das tarefas, prazos e responsáveis definidos para a Sprint 1.
+
+A planilha pode ser acessada abaixo:
+
+- [planejamento2 sprint 1 (1).xlsx](https://github.com/user-attachments/files/26273147/planejamento2.sprint.1.1.xlsx)
+
+
+> O planejamento é fundamental para garantir a organização da equipe, acompanhamento das atividades e cumprimento dos prazos estabelecidos.
+
+ ---
 
 # SPRINT 1
 
