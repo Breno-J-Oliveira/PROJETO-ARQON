@@ -37,15 +37,14 @@
 - [Equipe](#-equipe)
 - [Contatos e Redes Sociais](#-contatos-e-redes-sociais)
 - [Conclusão](#-conclusão)
-- [Licença](#-licença)
 
 ---
 
 # SPRINT 1
 
-A **Sprint 1** representa a fase inicial de planejamento do projeto **Arqon**, dedicada à definição da base conceitual, visual e funcional da plataforma.
+A **Sprint 1** marca o início formal do projeto **Arqon**, etapa dedicada à construção da base estratégica, visual e funcional da plataforma.
 
-Nesta etapa, o foco principal esteve na criação de uma solução digital para **locação de roupas premium sustentáveis**, com uma experiência moderna, organizada e alinhada ao conceito de moda consciente.
+Nesta fase inicial, o objetivo foi definir com clareza a proposta do sistema, estruturado para atender à locação de roupas premium sustentáveis em um ambiente digital moderno, elegante e intuitivo. O planejamento concentrou-se em criar uma experiência coesa, alinhada ao conceito de moda consciente e ao posicionamento premium da marca.
 
 O projeto contempla as seguintes páginas principais:
 
@@ -55,7 +54,7 @@ O projeto contempla as seguintes páginas principais:
 - Painel Administrativo
 - Listagem de Produtos
 
-O objetivo desta sprint foi estabelecer uma estrutura sólida para o sistema, definindo escopo, identidade visual, diretrizes de navegação e organização das entregas futuras.
+A Sprint 1 estabeleceu os fundamentos necessários para a continuidade do desenvolvimento, organizando escopo, identidade visual, jornada de navegação e entrega das próximas etapas.
 
 ---
 
@@ -67,7 +66,7 @@ A planilha pode ser acessada abaixo:
 
 - [planejamento2 sprint 1 (1).xlsx](https://github.com/user-attachments/files/26273147/planejamento2.sprint.1.1.xlsx)
 
-> O planejamento é fundamental para garantir a organização da equipe, acompanhamento das atividades e cumprimento dos prazos estabelecidos.
+> O planejamento é um elemento essencial para manter a equipe alinhada, acompanhar a execução das atividades e garantir o cumprimento dos prazos definidos.
 
 ---
 
@@ -81,7 +80,7 @@ As funcionalidades previstas para esta fase inicial incluem:
 - Registro de informações detalhadas das peças
 - Listagem organizada dos produtos cadastrados
 
-Essas funções formam a base operacional da plataforma e servem como ponto de partida para a implementação das próximas etapas do sistema.
+Esses recursos formam a base operacional da plataforma e estruturam o núcleo funcional do sistema para as próximas evoluções.
 
 ---
 
@@ -89,32 +88,32 @@ Essas funções formam a base operacional da plataforma e servem como ponto de p
 
 ### Escalabilidade
 
-A estrutura do projeto foi planejada para permitir expansão futura, com possibilidade de inclusão de novas áreas e recursos, como:
+A arquitetura pensada para o projeto permite expansão futura com baixo impacto estrutural. A plataforma pode evoluir para suportar novas camadas de funcionalidade, como:
 
 - histórico de pedidos
 - relatórios administrativos
-- melhorias na experiência do usuário
+- melhorias de experiência do usuário
 - filtros e categorias avançadas
 - áreas personalizadas para clientes e parceiros
 
 ### Segurança
 
-As senhas dos administradores devem ser armazenadas utilizando criptografia para garantir a segurança das informações e reforçar a integridade do sistema.
+As credenciais dos administradores devem ser armazenadas com criptografia, reforçando a proteção das informações e reduzindo riscos de exposição indevida de dados sensíveis.
 
 ---
 
 ## Tecnologias Utilizadas
 
-O projeto foi idealizado com foco em uma base visual e interativa apoiada pelas tecnologias essenciais do front-end e pela prototipação de interface.
+O projeto foi idealizado com base em tecnologias fundamentais para construção de interfaces modernas e prototipação de alta fidelidade.
 
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/FIGMA-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
 </p>
 
-<p align="left">
+<p align="center">
   <a href="https://www.figma.com/design/aUXInFY6s0Kp81VnPQmI1H/prototipo?node-id=0-1&t=HmDBRhPAt5RvLBSk-1" target="_blank">
     <img src="https://img.shields.io/badge/Acessar%20Protótipo-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Acessar Protótipo no Figma">
   </a>
@@ -124,25 +123,31 @@ O projeto foi idealizado com foco em uma base visual e interativa apoiada pelas 
 
 ## Protótipo no Figma
 
-O protótipo foi desenvolvido utilizando a ferramenta **Figma** para simular a navegação do sistema antes da implementação.
+O protótipo foi desenvolvido na ferramenta **Figma** com o objetivo de simular a navegação do sistema antes da implementação.
 
-A proposta do protótipo é validar a estrutura visual, a hierarquia dos elementos, a fluidez entre telas e a experiência geral do usuário em diferentes dispositivos.
+Essa etapa foi fundamental para validar a estrutura visual, a hierarquia dos componentes, a fluidez entre as telas e a adaptação da experiência em diferentes dispositivos.
 
 ### Login para Computador
 
-<img width="400" height="400" alt="Login para Computador" src="https://github.com/user-attachments/assets/dfabacf3-746c-4005-96e5-9b842bca9028" />
+<p align="center">
+  <img width="700" alt="Login para Computador" src="https://github.com/user-attachments/assets/dfabacf3-746c-4005-96e5-9b842bca9028" />
+</p>
 
 ### Login para Celular
 
-<img width="222" height="454" alt="Login para Celular" src="https://github.com/user-attachments/assets/1477d3a9-c656-4aad-a42e-62285049e0e7" />
+<p align="center">
+  <img width="320" alt="Login para Celular" src="https://github.com/user-attachments/assets/1477d3a9-c656-4aad-a42e-62285049e0e7" />
+</p>
 
 ---
 
 ## Cronograma
 
-O cronograma do projeto foi estruturado utilizando a plataforma **ClickUp**, permitindo o acompanhamento das tarefas, prazos e responsáveis ao longo da Sprint 1.
+O cronograma do projeto foi estruturado com o apoio da plataforma **ClickUp**, permitindo acompanhar tarefas, prazos e responsáveis ao longo da Sprint 1.
 
-<img width="300" height="300" alt="Cronograma do projeto Arqon" src="https://github.com/user-attachments/assets/81aac485-398a-4b25-bd9e-4baf8c04d85a" />
+<p align="center">
+  <img width="420" alt="Cronograma do projeto Arqon" src="https://github.com/user-attachments/assets/81aac485-398a-4b25-bd9e-4baf8c04d85a" />
+</p>
 
 ---
 
@@ -150,41 +155,41 @@ O cronograma do projeto foi estruturado utilizando a plataforma **ClickUp**, per
 
 ### 1. Visão Geral da Arquitetura
 
-O **Arqon** foi concebido como uma plataforma digital voltada para locação de roupas premium sustentáveis, estruturada de forma a separar claramente apresentação, lógica de navegação e organização de conteúdo. Nesta fase, o foco principal está na construção da experiência visual e na definição do fluxo funcional do sistema.
+O **Arqon** foi concebido como uma plataforma digital voltada à locação de roupas premium sustentáveis, com uma organização simples, clara e facilmente expansível. Nesta fase, a prioridade esteve na definição da experiência visual e na modelagem do fluxo funcional do sistema.
 
-A arquitetura do projeto privilegia a clareza de navegação e a separação entre páginas, permitindo que cada tela cumpra um papel específico dentro da jornada do usuário. Essa abordagem reduz complexidade visual, melhora a manutenção e favorece a evolução do sistema em etapas futuras.
+A estrutura foi pensada para separar páginas e responsabilidades, permitindo que cada tela cumpra um papel específico dentro da jornada do usuário. Essa abordagem reduz complexidade, melhora a manutenção e cria uma base consistente para o desenvolvimento futuro.
 
 ### 2. Fluxo de Navegação
 
-O fluxo do Arqon segue uma lógica simples e funcional:
+O fluxo da aplicação segue uma lógica objetiva e funcional:
 
 1. O usuário acessa a página de **Login**.
 2. Após a autenticação, é direcionado ao ambiente principal.
-3. A partir do painel administrativo, pode acessar:
+3. Pelo painel administrativo, é possível acessar:
    - cadastro de marcas parceiras;
    - cadastro de peças;
    - listagem de produtos.
-4. O sistema organiza as informações de forma centralizada, mantendo uma experiência de uso objetiva e intuitiva.
+4. As informações ficam organizadas em uma estrutura centralizada, favorecendo leitura, controle e usabilidade.
 
-Esse fluxo foi pensado para dar suporte à administração da plataforma e à exibição organizada do catálogo de roupas.
+Esse fluxo foi desenhado para atender às necessidades administrativas da plataforma sem comprometer a simplicidade da navegação.
 
 ### 3. Estrutura das Telas
 
-As telas previstas para a Sprint 1 foram definidas com base na lógica operacional da plataforma:
+As telas definidas para a Sprint 1 foram planejadas com base na lógica operacional da aplicação:
 
 - **Página de Login**: ponto de entrada do sistema, com autenticação por e-mail e senha.
-- **Cadastro de Marcas Parceiras**: área destinada ao registro de empresas associadas ao projeto.
-- **Cadastro de Peças**: formulário para inserção de itens de vestuário disponíveis para locação.
-- **Painel Administrativo**: ambiente central de organização e gerenciamento das informações.
-- **Listagem de Produtos**: tela para consulta dos itens cadastrados de forma clara e estruturada.
+- **Cadastro de Marcas Parceiras**: área para registrar empresas associadas ao projeto.
+- **Cadastro de Peças**: formulário destinado à inclusão dos itens disponíveis para locação.
+- **Painel Administrativo**: centro de gerenciamento e organização das informações.
+- **Listagem de Produtos**: tela de consulta e visualização estruturada do catálogo.
 
-Cada tela foi planejada para cumprir uma função objetiva, evitando excesso de informação e priorizando usabilidade.
+Cada tela foi pensada para cumprir uma função objetiva, com foco em clareza, organização e eficiência visual.
 
 ### 4. Identidade Visual
 
-A identidade visual da Arqon foi desenvolvida para transmitir três pilares centrais: **sofisticação, tecnologia e sustentabilidade**. A paleta de cores combina tons escuros e elegantes com acentos mais vivos, criando contraste e imponência visual.
+A identidade visual da Arqon foi desenvolvida para comunicar **sofisticação, tecnologia e sustentabilidade**. A paleta de cores combina tons escuros e elegantes com pontos de destaque mais vivos, resultando em uma composição visual marcante e coerente com o posicionamento premium do projeto.
 
-Essa construção cromática reforça a percepção de exclusividade do projeto, ao mesmo tempo em que mantém uma leitura moderna e consistente para interfaces digitais.
+Essa construção cromática reforça a exclusividade da marca e garante consistência estética em diferentes interfaces digitais.
 
 #### Paleta de Cores — Arqon
 
@@ -224,7 +229,7 @@ Nesta etapa inicial, o escopo foi delimitado com foco em objetividade e validaç
 
 ### 6. Boas Práticas Adotadas
 
-Durante o desenvolvimento do planejamento, foram observadas boas práticas importantes para fortalecer a qualidade do projeto:
+Durante o planejamento e a definição da sprint, algumas boas práticas foram adotadas para reforçar a qualidade do projeto:
 
 - organização do fluxo por páginas;
 - separação clara entre áreas do sistema;
@@ -235,7 +240,7 @@ Durante o desenvolvimento do planejamento, foram observadas boas práticas impor
 
 ### 7. Expansão Futura
 
-A estrutura criada nesta sprint permite a evolução da plataforma para novas funcionalidades, sem comprometer a coerência do design e da navegação.
+A estrutura criada nesta sprint permite evolução natural da plataforma, sem comprometer a coerência entre design e navegação.
 
 Entre os próximos avanços possíveis, destacam-se:
 
@@ -256,14 +261,49 @@ Essa organização fortalece a visão de processo e prepara a equipe para uma ev
 
 ## 👥 Equipe
 
-| Nome             | Função         | Email                          |
-| ---------------- | -------------- | ------------------------------ |
-| Breno Oliveira   | Desenvolvedor  | breno.emailsenai@gmail.com     |
-| Isabella Dias    | Desenvolvedora | isabelladias753@gmail.com      |
-| Paolla Veronez   | Scrum Master   | paollap.veronez@gmail.com      |
-| Rafaela Oliveira | Product Owner  | rafaelacristina1510.oliveira@gmail.com |
-| Vitor Canali     | Desenvolvedor  | vitorcanali67@gmail.com        |
-| Felipe Heitor    | Desenvolvedor  | felipeheitor@gmail.com         |
+<p align="center">
+  <table>
+    <thead>
+      <tr>
+        <th align="center">Nome</th>
+        <th align="center">Função</th>
+        <th align="center">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center">Breno Oliveira</td>
+        <td align="center">Desenvolvedor</td>
+        <td align="center">breno.emailsenai@gmail.com</td>
+      </tr>
+      <tr>
+        <td align="center">Isabella Dias</td>
+        <td align="center">Desenvolvedora</td>
+        <td align="center">isabelladias753@gmail.com</td>
+      </tr>
+      <tr>
+        <td align="center">Paolla Veronez</td>
+        <td align="center">Scrum Master</td>
+        <td align="center">paollap.veronez@gmail.com</td>
+      </tr>
+      <tr>
+        <td align="center">Rafaela Oliveira</td>
+        <td align="center">Product Owner</td>
+        <td align="center">rafaelacristina1510.oliveira@gmail.com</td>
+      </tr>
+      <tr>
+        <td align="center">Vitor Canali</td>
+        <td align="center">Desenvolvedor</td>
+        <td align="center">vitorcanali67@gmail.com</td>
+      </tr>
+      <tr>
+        <td align="center">Felipe Heitor</td>
+        <td align="center">Desenvolvedor</td>
+        <td align="center">felipeheitor@gmail.com</td>
+      </tr>
+    </tbody>
+  </table>
+</p>
 
 ---
 
@@ -290,14 +330,8 @@ Se quiser acompanhar mais projetos, trocar ideias sobre desenvolvimento ou conhe
 
 ## Conclusão
 
-A Sprint 1 do projeto **Arqon** estabeleceu as bases para o desenvolvimento de uma plataforma de locação de roupas premium sustentáveis, com foco em planejamento, identidade visual e definição funcional.
+A Sprint 1 do projeto **Arqon** consolidou as bases para o desenvolvimento de uma plataforma de locação de roupas premium sustentáveis, com foco em planejamento, identidade visual e definição funcional.
 
-A etapa inicial permitiu organizar a proposta do sistema, validar a estrutura visual no Figma, distribuir responsabilidades no cronograma e consolidar uma visão clara para as próximas fases do projeto.
+A etapa inicial permitiu estruturar a proposta do sistema, validar a interface no Figma, organizar responsabilidades no cronograma e construir uma visão clara para a evolução do projeto.
 
-O resultado é um ponto de partida consistente, bem documentado e preparado para evolução técnica e visual nas próximas sprints.
-
----
-
-## Licença
-
-Este projeto não possui licença definida no momento.
+O resultado é um ponto de partida sólido, visualmente consistente e tecnicamente bem direcionado para as próximas sprints.
