@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/produto.css">
+</head>
+<body>
+    <section class="arqon-pdp" id="product-details-section">
+    <div class="pdp-atmosphere">
+        <div class="glow-orb pdp-orb-1"></div>
+        <div class="glow-orb pdp-orb-2"></div>
+        <img src="assets/img/3delement.png" class="floating-obj pdp-obj-1" alt="3D Decor">
+    </div>
+
+    <div class="pdp-layout">
+        
+        <div class="pdp-gallery">
+            <div class="pdp-image-wrapper large-view">
+                <span class="pdp-badge">NEW DROP</span>
+                <img src="assets/img/catalog1.jpg" alt="Liquid Obsidian Gown - Front" class="pdp-img main-img" id="mainImageDisplay">
+            </div>
+            <div class="pdp-thumbnail-grid">
+                <button class="thumb-btn active">
+                    <img src="assets/img/catalog1.jpg" alt="View 1" class="thumb-img">
+                </button>
+                <button class="thumb-btn">
+                    <img src="assets/img/catalog1-back.jpg" alt="View 2" class="thumb-img">
+                </button>
+                <button class="thumb-btn">
+                    <img src="assets/img/catalog1-detail.jpg" alt="View 3" class="thumb-img">
+                </button>
+                <button class="thumb-btn">
+                    <img src="assets/img/catalog1-zoom.jpg" alt="View 4" class="thumb-img">
+                </button>
+            </div>
+        </div>
+
+        <div class="pdp-info-panel">
+            <div class="pdp-sticky-content">
+                
+                <div class="pdp-meta-top">
+                    <span class="pdp-breadcrumb">ARCHIVE / GALA EXCLUSIVE / <span class="current">001</span></span>
+                    <span class="pdp-id-tag">RFID-TAG: 89X-ARQ</span>
+                </div>
+
+                <div class="pdp-header">
+                    <h1 class="pdp-title">LIQUID OBSIDIAN GOWN</h1>
+                    <div class="pdp-price-box">
+                        <span class="price-value">R$ 1.200</span>
+                        <span class="price-period">/ 4 DAYS RENTAL</span>
+                    </div>
+                </div>
+
+                <hr class="pdp-divider">
+
+                <div class="pdp-selector-group">
+                    <div class="selector-header">
+                        <span class="selector-label">SELECT SIZE</span>
+                        <button class="btn-text-link">SIZE GUIDE <span>[+]</span></button>
+                    </div>
+                    <div class="size-grid">
+                        <button class="size-btn">XS</button>
+                        <button class="size-btn active">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn disabled" disabled>L (UNAVAILABLE)</button>
+                    </div>
+                </div>
+
+                <div class="pdp-selector-group">
+                    <div class="selector-header">
+                        <span class="selector-label">RENTAL DATES <span class="status-dot available"></span></span>
+                        <span class="tech-hint">MAX 14 DAYS</span>
+                    </div>
+                    <div class="pdp-date-picker">
+                        <div class="date-input-box">
+                            <label>START DATE</label>
+                            <input type="date" class="tech-date-input" id="rentStartDate">
+                        </div>
+                        <div class="date-divider"></div>
+                        <div class="date-input-box">
+                            <label>RETURN DATE</label>
+                            <input type="date" class="tech-date-input" id="rentEndDate">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pdp-actions">
+                    <button class="btn-primary-block" id="btnAddToCart">
+                        <span class="btn-text">ADD TO RENT CART</span>
+                        <span class="btn-icon">→</span>
+                    </button>
+                    <button class="btn-secondary-block" id="btnReserve">
+                        EXPRESS RESERVE
+                    </button>
+                </div>
+
+                <hr class="pdp-divider">
+
+                <div class="pdp-accordion-wrapper">
+                    <div class="accordion-item active">
+                        <button class="accordion-header">
+                            <span class="acc-title">PIECE DESCRIPTION</span>
+                            <span class="acc-icon">−</span>
+                        </button>
+                        <div class="accordion-content" style="max-height: 200px;">
+                            <p class="acc-text">
+                                The Liquid Obsidian Gown redefines digital-physical luxury. Crafted with smart-silk memory fabric that adapts to body temperature, this piece features asymmetrical draping and holographic micro-threads that catch light in low-visibility environments.
+                            </p>
+                            <ul class="acc-list">
+                                <li>Smart-silk memory fabric</li>
+                                <li>Holographic micro-threading</li>
+                                <li>Asymmetrical structured corset</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span class="acc-title">COMPOSITION & CARE</span>
+                            <span class="acc-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p class="acc-text">
+                                80% Synthetic Silk, 15% Carbon-Flex, 5% Luminous Fiber. Do not wash. ARQON handles all premium eco-dry cleaning post-rental.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span class="acc-title">RENTAL POLICY & LOGISTICS</span>
+                            <span class="acc-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p class="acc-text">
+                                Piece is delivered in a climate-controlled smart box. Return scan required via the ARQON app before scheduled pickup. Late fees apply automatically via smart-contract.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="pdp-related-section">
+        <div class="related-header">
+            <h3 class="related-title">COMPLETE THE VISION</h3>
+            <hr class="elegant-line">
+        </div>
+        
+        <div class="related-grid">
+            <article class="arq-card related-card">
+                <div class="arq-card-img-wrapper">
+                    <img src="assets/img/catalog4.jpg" alt="Cyber Shield Visor" class="arq-img">
+                    <div class="arq-overlay">
+                        <button class="btn-gold btn-view" onclick="goTo('details')">VIEW DETAILS</button>
+                    </div>
+                </div>
+                <div class="arq-card-info">
+                    <span class="arq-cat">ACCESSORIES</span>
+                    <h3 class="arq-name">CYBER SHIELD VISOR</h3>
+                    <span class="arq-price">R$ 150 <span class="arq-period">/ 4 DAYS</span></span>
+                </div>
+            </article>
+
+            <article class="arq-card related-card">
+                <div class="arq-card-img-wrapper">
+                    <img src="assets/img/catalog5.jpg" alt="Mesh Gradient Top" class="arq-img">
+                    <div class="arq-overlay">
+                        <button class="btn-gold btn-view" onclick="goTo('details')">VIEW DETAILS</button>
+                    </div>
+                </div>
+                <div class="arq-card-info">
+                    <span class="arq-cat">CASUAL LUXURY</span>
+                    <h3 class="arq-name">MESH GRADIENT TOP</h3>
+                    <span class="arq-price">R$ 220 <span class="arq-period">/ 4 DAYS</span></span>
+                </div>
+            </article>
+
+            <article class="arq-card related-card">
+                <div class="arq-card-img-wrapper">
+                    <img src="assets/img/catalog6.jpg" alt="Liquid Metal Suit" class="arq-img">
+                    <div class="arq-overlay">
+                        <button class="btn-gold btn-view" onclick="goTo('details')">VIEW DETAILS</button>
+                    </div>
+                </div>
+                <div class="arq-card-info">
+                    <span class="arq-cat">GALA EXCLUSIVE</span>
+                    <h3 class="arq-name">LIQUID METAL SUIT</h3>
+                    <span class="arq-price">R$ 1200 <span class="arq-period">/ 4 DAYS</span></span>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+<script src="scripts/produto.js"></script>
+</body>
+</html>
