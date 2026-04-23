@@ -1,0 +1,170 @@
+1. Módulo de Identidade e Acessos (IAM)
+
+A segurança e o controle de acesso exigem proteção rigorosa de dados sensíveis e permissões granulares.
+
+• usuarios (cadastro central)
+Campos: id (UUID), nome, email, senha_hash, cpf, id_nivel_acesso, data_criacao
+→ Senhas obrigatoriamente com hash Argon2id.
+
+• usuarios_enderecos (endereços múltiplos)
+Campos: id, id_usuario, titulo, cep, logradouro, numero, bairro, cidade, padrao_entrega
+→ Ex: Casa, Escritório, Hotel.
+
+• niveis_acesso (papéis do sistema)
+Campos: id, nome, permissoes_json
+→ Ex: Admin Global, Logística Galpão, Cliente VIP.
+
+• api_keys (integrações e dispositivos)
+Campos: id, chave_hash, descricao, data_expiracao, status_ativo
+→ Ex: leitor RFID enviando requisições.
+
+2. Módulo de Ativos de Luxo (O “Cofre”)
+
+Gerencia a riqueza visual e precisão técnica dos itens.
+
+• produto_midia (assets visuais)
+Campos: id, id_produto, tipo_midia, url_arquivo, ordem_exibicao
+→ Tipos: imagem 4K, vídeo, modelos 3D (.glb/.gltf).
+
+• atributos_medidas (medidas reais)
+Campos: id, id_item_estoque, ombro_cm, busto_cm, cintura_cm, quadril_cm, comprimento_cm
+→ Reduz erros de caimento.
+
+3. Módulo Logístico e Operacional (O “Fluxo”)
+
+Espelha todo o ciclo físico da peça.
+
+• locacoes (contrato de aluguel)
+Campos: id, id_usuario, id_item_estoque, data_inicio, data_fim, valor_aluguel, valor_caucao, status_pedido
+
+• pontos_coleta (hubs físicos)
+Campos: id, nome_unidade, cep, logradouro, horario_funcionamento
+→ Ex: QG Arqon Jardins.
+
+• entregas (envio da peça)
+Campos: id, id_locacao, id_entregador, status_rota, codigo_rastreio
+→ Integração com APIs de frete.
+
+• devolucoes (retorno da peça)
+Campos: id, id_locacao, id_ponto_coleta, data_recebimento, status_triagem
+→ Status: devolvido → aguardando vistoria.
+
+4. Módulo Financeiro e Revenue Share
+
+Controle financeiro completo e rastreável.
+
+• transacoes_financeiras
+Campos: id, id_locacao, tipo, status, gateway_id, valor_total
+→ Integração com Stripe ou Pagar.me.
+
+• caucoes
+Campos: id, id_locacao, valor_retido, status_caucao, data_captura_ou_estorno
+
+• split_pagamentos
+Campos: id, id_transacao, id_marca, valor_marca, valor_arqon, status_repasse
+
+5. Módulo de Inteligência e Marketing (The Vault)
+
+Base para recomendação e retenção.
+
+• cupons
+Campos: id, codigo, tipo_desconto, valor_desconto, validade, id_marca_restricao
+
+• wishlist
+Campos: id, id_usuario, id_produto, data_adicao
+
+• lookbooks_ia
+Campos: id, id_usuario, nome_look, ids_produtos_sugeridos_json, data_geracao
+
+• avaliacoes
+Campos: id, id_usuario, id_produto, nota, comentario, status_aprovacao
+
+6. Módulo de Auditoria e Saúde do Sistema
+
+Rastreabilidade total (caixa preta).
+
+• logs_auditoria
+Campos: id, tabela_afetada, id_registro, acao, usuario_responsavel, timestamp
+
+• log_manutencao
+Campos: id, id_item_estoque, tipo_manutencao, data_envio, custo, laudo_tecnico
+→ Ex: lavagem premium, troca de zíper.
+
+7. Módulo de Sinistros e Seguros
+
+Gestão de danos e exceções.
+
+• sinistros
+Campos: id, id_locacao, id_item_estoque, descricao_dano, gravidade, valor_cobrado, status
+
+• sinistros_fotos
+Campos: id, id_sinistro, url_foto, data_upload
+
+• regras_seguro
+Campos: id, nome_plano, percentual_cobertura, valor_premio_diario, status_ativo
+
+8. Módulo de Notificações e Fila
+
+Comunicação assíncrona com usuários.
+
+• notificacoes
+Campos: id, id_usuario, canal, titulo, mensagem, status_envio
+→ Canais: push, e-mail, SMS.
+
+• templates_notificacao
+Campos: id, gatilho_sistema, assunto, corpo_html
+
+9. Módulo de Assinaturas e Fidelidade
+
+Foco em receita recorrente e LTV.
+
+• planos_assinatura
+Campos: id, nome, valor_mensal, qtd_locacoes_mes, beneficios_json
+→ Ex: Arqon Black.
+
+• fidelidade_pontos
+Campos: id, id_usuario, quantidade_pontos, operacao, motivo_origem
+
+10. Módulo de Configurações Dinâmicas
+
+Flexibilidade sem deploy.
+
+• configuracoes_sistema
+Campos: chave_unica, valor, descricao, tipo_dado
+→ Ex: TAXA_HIGIENIZACAO_FIXA.
+
+11. Módulo de Atendimento (Suporte VIP)
+
+Suporte estruturado e prioritário.
+
+• tickets_suporte
+Campos: id, id_usuario, id_locacao, assunto, status, prioridade
+
+• tickets_mensagens
+Campos: id, id_ticket, id_remetente, texto_mensagem, anexo_url, timestamp
+
+12. Módulo CMS de Vitrine
+
+Gestão da experiência visual.
+
+• colecoes
+Campos: id, titulo, subtitulo, capa_url, status_ativo
+
+• banners_home
+Campos: id, titulo, imagem_desktop_url, imagem_mobile_url, link_destino
+
+13. Módulo de Preços Dinâmicos e Sazonalidade
+
+Ajustes estratégicos de preço.
+
+• precos_sazonais
+Campos: id, id_produto, multiplicador_preco, data_inicio, data_fim, motivo
+→ Ex: +30% no Réveillon.
+
+14. Logs de Integração (Webhooks)
+
+Monitoramento de integrações externas.
+
+• logs_webhooks
+Campos: id, servico_origem, payload_recebido, status_processamento, erro_mensagem
+→ Armazena JSON de Stripe, Correios, RFID.
